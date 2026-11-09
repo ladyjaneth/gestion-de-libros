@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mito-books 
+  datasource:
+      driver-class-name: org.postgresql.Driver 
+      url: jdbc:postgresql://localhost:5432/mitobooks
+      username: postgres
+  jpa: 
+   database: postgresql
+   show-sql: false
+   hibernate:
+    ddl-auto: update
